@@ -1,0 +1,126 @@
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	background-color: #ccc;
+	color: #fff;
+}
+
+div.topcontent {
+	width: 900px;
+	background-color: #fff;
+	padding: 5px 5px 5px 5px;
+}
+
+div.navigation {
+	width: 900px;
+	background-color: #900000;
+	margin-bottom: 5px;
+}
+
+div.navigation table {
+	width:100%;
+}
+
+div.navigation a {
+	text-decoration: none;
+	color: #fff;
+}
+
+div.navigation a:hover {
+	text-decoration: none;
+	color: #505050;
+}
+
+
+div.maincontent {
+	display: inline-block;
+	width: 890px;
+	background-color: #989898;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+input,textarea,select {
+	color: #fff;
+	background-color: #900000;
+	border:2px  #fff;
+	display: inline-block;
+	width: 200px;
+	outline: none;
+	
+}
+
+input#submit,input[type="button"] {
+	width: auto !important;
+}
+
+div.footer {
+	padding: 5px;
+	text-align: center;
+	background-color: #900000;
+	color: #fff;
+	height: 50px;
+}
+
+div.login, div.register {
+	background-color: #989898;
+	border:  4px #fff;
+	position: absolute;
+	left: 50%;
+	margin: -100px 0 0 -190px;
+	padding: 5px;
+	top: 50%;
+	text-align: right;
+}
+
+div.home {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+td#error-msgs div.help {
+	display: list-item;
+	list-style-type: circle;
+	list-style-position: inside;
+	text-align: left;
+}
+
+td#user,td#user1,td#user2{
+	float:right;
+	padding-right:15px;
+	
+}
+td#home,td#allitem,td#additem{
+	float:left;
+	padding-left:10px;
+	
+}
+div.one-item{
+	background-color:#989898;
+	
+}
+div.left-column{
+	background-color:#989898;
+	
+}
+a.link{
+	font-size:20px;
+	color:#505050;
+	text-decoration:none;
+	
+}
+a.link:hover{
+	
+	font-size:30px;
+	
+}
+span.span-weight, span.span-value{
+	padding-left:20px;
+	font-size:20px;
+	
+	
+}

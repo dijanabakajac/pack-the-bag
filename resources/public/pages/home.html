@@ -1,0 +1,28 @@
+<div class="item">
+	<form id="add-item" method="POST" action="/add-item" novalidate>
+		<table>
+			
+			<tr>
+				<td>Item</td>
+				<td><input type="text" name="item" id="item"></td>
+			</tr>
+			<tr>
+				<td>Weight</td>
+				<td><input type="text" name="weight" id="weight"></td>
+			</tr>
+			<tr>
+				<td>Value</td>
+				<td><input type="text" name="value" id="value"></td>
+			</tr>	
+			
+			<tr>
+				<td></td>
+				<td><input type="submit" id="save-item" value="Save"></td>
+			</tr>
+
+			<tr>
+				<td colspan="2" id="error-msgs"></td>
+			</tr>
+		</table>
+	</form>
+</div>

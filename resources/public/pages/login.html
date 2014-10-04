@@ -1,0 +1,27 @@
+<form action="/login" method="post" id="login" novalidate>
+	<table>
+		<tr>
+			<td><label for="username">Username</label></td>
+			<td><input name="username" id="username" type="text" value="" require></td>
+		</tr>
+		<tr>
+			<td><label for="password">Password</label></td>
+			<td><input name="password" id="password" type="password"
+				value="" require></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input name="submit" type="submit" id="submit" value="Login"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<div>
+					<a id="register" href="/register">register</a>
+				</div></td>
+		</tr>
+		<tr>
+			<td colspan="2" id="error-msgs"></td>
+		</tr>
+	</table>
+</form>
